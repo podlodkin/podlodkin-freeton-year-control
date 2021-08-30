@@ -2,10 +2,10 @@
 
 ## Description
 
-Progress is the engine of development. The progress gives the vector of movement to the modern world. We use various gadgets every day, leave traces on the Internet and open our privacy everywhere. But confidentiality is very important and it would be correct to hide some information about yourself. How can we use this? zk-SNARKs - Zero Knowledge Evidence ...
+Progress is the engine of development. The progress gives the vector of movement to the modern world. We use various gadgets every day, leave traces on the Internet and open our privacy everywhere. But confidentiality is very important and it would be correct to hide some information about yourself. How can we use this? zk-SNARKs - Zero Knowledge Proof.
 
 The purpose of zero knowledge proofs is for the verifier to be able to verify that the verifier has knowledge of a secret parameter called 
-evidence that satisfies some relationship without disclosing the evidence to the verifier or anyone else - for example:
+proof that satisfies some relationship without disclosing the proof to the verifier or anyone else - for example:
 * If I want to go to any event with a high MPAA rating and am not ready to disclose my personal information to others;
 * If I want to participate in extreme sports games and I want to hide this information from my bank / lender;
 * If I want to buy alcohol, cigarettes, but I am not ready to reveal my age;
@@ -169,6 +169,7 @@ Running 2 test cases...
 Testing 5 in range (2, 100)
 Testing 1 in range (2, 100)
 Testing 101 in range (2, 100)
+No errors detected
 ```
 
 ### Demo Web application 
