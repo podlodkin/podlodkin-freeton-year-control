@@ -13,9 +13,6 @@
 [submodule "snark-logic/libs/blueprint"]
 	path = snark-logic/libs/blueprint
 	url = git@github.com:nilfoundation/crypto3-blueprint.git
-[submodule "snark-logic/libs/fft"]
-	path = snark-logic/libs/fft
-	url = git@github.com:nilfoundation/crypto3-fft.git
 [submodule "snark-logic/libs/block"]
 	path = snark-logic/libs/block
 	url = git@github.com:nilfoundation/crypto3-block.git
@@ -40,3 +37,6 @@
 [submodule "snark-logic/libs/marshalling"]
 	path = snark-logic/libs/marshalling
 	url = git@github.com:NilFoundation/marshalling.git
+[submodule "snark-logic/libs/math"]
+	path = snark-logic/libs/math
+	url = git@github.com:NilFoundation/crypto3-math.git
