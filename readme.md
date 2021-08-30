@@ -157,14 +157,14 @@ bin/cli prove --year 7 --minYear 18 --maxYear 99
 #### Testing
 Build and run unit tests:
 ```
-cd /snark-logic/test/
+cd /snark-logic/unit-tests/
 cmake .. -DBUILD_TESTS=1
 make snark_logic_test
-./test/snark_logic_test
+./unit-tests/snark_logic_test
 ```
 Result:
 ```
-> ./test/snark_logic_test
+> ./unit-tests/snark_logic_test
 Running 2 test cases...
 Testing 5 in range (2, 100)
 Testing 1 in range (2, 100)
