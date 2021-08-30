@@ -35,7 +35,7 @@ if(NOT Boost_FOUND)
     cm_find_package(Boost REQUIRED COMPONENTS program_options system)
 endif()
 
-add_subdirectories("${CMAKE_CURRENT_LIST_DIR}/libs"
+add_subdirectories("${CMAKE_CURRENT_LIST_DIR}/libs-source"
                    SUBMODULE_DEFINITION_HEADER "cm_project\\(")
 add_subdirectory("${CMAKE_CURRENT_LIST_DIR}/bin")
 
