@@ -40,3 +40,6 @@
 [submodule "snark-logic/libs/marshalling"]
 	path = snark-logic/libs/marshalling
 	url = git@github.com:NilFoundation/marshalling.git
+[submodule "snark-logic/libs/math"]
+	path = snark-logic/libs/math
+	url = git@github.com:NilFoundation/crypto3-math.git
