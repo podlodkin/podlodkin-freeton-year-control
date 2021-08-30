@@ -132,11 +132,32 @@ make cli
 ```
 bin/cli setup
 ```
+Result:
+```
+$ bin/cli setup
+Blueprint size: 114
+Generating constraint system...
+Number of R1CS constraints: 115
+Generating keypair...
+Saving proving key to a file "proving.key"
+Saving verification key to a file "verification.key"
+```
 As the result you give two files: "proving.key" and "verification.key".
 
 2. You can try to generate the proof for some correct age:
 ```
 bin/cli prove --year 19 --minYear 18 --maxYear 99
+```
+Result:
+```
+$ bin/cli prove --year 19 --minYear 18 --maxYear 99
+Loading proving key from a file "proving.key"
+Generating constraint system...
+Generating witness...
+**Blueprint is satisfied: 1**
+Generating proof...
+Saving proof to file "proof"
+Saving primary input to file "primary.input"
 ```
 As the result you give file "primary.input".
 
@@ -144,14 +165,26 @@ As the result you give file "primary.input".
 ```
 bin/cli verify
 ```
-As the result you need to give:
+Result:
 ```
-Verification status: 1
+$ bin/cli verify
+Loading proof from a file "proof"
+Loading primary input from a file "verification.key"
+Loading verification key from a file "primary.input"
+**Verification status: 1**
 ```
 
 4. You can try to generate the proof for some incorrect age:
 ```
 bin/cli prove --year 7 --minYear 18 --maxYear 99
+```
+Result:
+```
+$ bin/cli prove --year 7 --minYear 18 --maxYear 99
+Loading proving key from a file "proving.key"
+Generating constraint system...
+Generating witness...
+**Blueprint is satisfied: 0**
 ```
 
 #### Testing
