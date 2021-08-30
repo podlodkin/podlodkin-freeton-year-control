@@ -154,7 +154,7 @@ $ bin/cli prove --year 19 --minYear 18 --maxYear 99
 Loading proving key from a file "proving.key"
 Generating constraint system...
 Generating witness...
-**Blueprint is satisfied: 1**
+Blueprint is satisfied: 1
 Generating proof...
 Saving proof to file "proof"
 Saving primary input to file "primary.input"
@@ -171,7 +171,7 @@ $ bin/cli verify
 Loading proof from a file "proof"
 Loading primary input from a file "verification.key"
 Loading verification key from a file "primary.input"
-**Verification status: 1**
+Verification status: 1
 ```
 
 4. You can try to generate the proof for some incorrect age:
@@ -184,20 +184,21 @@ $ bin/cli prove --year 7 --minYear 18 --maxYear 99
 Loading proving key from a file "proving.key"
 Generating constraint system...
 Generating witness...
-**Blueprint is satisfied: 0**
+Blueprint is satisfied: 0
 ```
+Blueprint is not satisfied.
 
 #### Testing
 Build and run unit tests:
 ```
-cd /snark-logic/unit-tests/
+cd snark-logic/unit-tests/
 cmake .. -DBUILD_TESTS=1
 make snark_logic_test
 ./unit-tests/snark_logic_test
 ```
 Result:
 ```
-> ./unit-tests/snark_logic_test
+$ ./unit-tests/snark_logic_test
 Running 2 test cases...
 Testing 5 in range (2, 100)
 Testing 1 in range (2, 100)
