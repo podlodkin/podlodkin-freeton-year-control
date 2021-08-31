@@ -61,7 +61,7 @@ This demo interactively generates and validates proofs by user inputted data:
 * Proof is generating by node solutions (which use znSnarkl-Logic CLI application);
 * Proof is validating by Free TON blockchain using Verification Free TON Solidity contract.
 
-**Unfortunately, NIL network is switched off and I can't publish my contract to it. So I’ve been testing my contract locally.**
+**Unfortunately, NIL network is switched off and I can't publish my contract to it. So I’ve been testing my contract locally. How to - https://github.com/tonlabs/tondev#run-contract-locally-on-tvm.**
 
 
 
