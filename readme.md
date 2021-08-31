@@ -221,4 +221,5 @@ Node listening on localhost:8331.
 
 ### HTML web page
 Open in browser ./demo/demo.html page (as file) and use it.
+
 ![Demo screen](demo/screen/screen.png)
