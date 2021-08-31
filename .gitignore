@@ -1,3 +1,4 @@
 build/*
 snark-logic/build/*
-
+demo/node/node_modules
+demo/node/*.log

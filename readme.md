@@ -209,18 +209,16 @@ No errors detected
 ### Demo Web application 
 
 #### Running node
+1. Copy newly compiled cli and actuals proving.key and verification.key to ./demo/node/assets.
+2. Run node:
 ```
-cd ./backend
+cd ./demo/node
 npm install
 npm run dev
 ```
+Node listening on localhost:8331.
 
-TODO: copying compiled version and keys!!!!
 
 ### HTML web page
-```
-???? TODO: !!!!
-```
-
-Then open this page in your browser and enjoy!
-
+Open in browser ./demo/demo.html page (as file) and use it.
+!(demo/screen/screen.png)
