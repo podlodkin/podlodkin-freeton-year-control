@@ -209,7 +209,7 @@ No errors detected
 ### Demo Web application 
 
 #### Running node
-1. Copy newly compiled cli and actuals proving.key and verification.key to ./demo/node/assets.
+1. Copy newly compiled cli and actuals proving.key and verification.key to ./demo/node/assets. Application cli must have permission to execute.
 2. Run node:
 ```
 cd ./demo/node
