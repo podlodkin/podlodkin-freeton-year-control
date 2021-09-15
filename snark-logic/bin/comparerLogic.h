@@ -43,7 +43,7 @@ class ComparerLogic {
         minYearLessOrEq.allocate(bp);
         maxYearLessOrEq.allocate(bp);
 
-        bp.set_input_sizes(2);
+        bp.set_input_sizes(3);
     }
 
     void generate_r1cs_constraints(blueprint<field_type> &bp) {
